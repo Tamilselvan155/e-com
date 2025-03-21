@@ -1,0 +1,210 @@
+[  {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "High-quality noise-cancelling headphones with Bluetooth.",
+      "price": 199.99,
+      "category": "Electronics",
+      "stock": 120,
+      "available": true,
+      "image_url": "https://example.com/images/headphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone Case",
+      "description": "Durable and stylish case for iPhone 13.",
+      "price": 19.99,
+      "category": "Accessories",
+      "stock": 150,
+      "available": true,
+      "image_url": "https://example.com/images/phone-case.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Laptop",
+      "description": "High-performance laptop with a dedicated graphics card.",
+      "price": 1200.00,
+      "category": "Electronics",
+      "stock": 50,
+      "available": true,
+      "image_url": "https://example.com/images/gaming-laptop.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with adjustable DPI.",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 200,
+      "available": true,
+      "image_url": "https://example.com/images/wireless-mouse.jpg"
+    },
+    {
+      "id": 5,
+      "name": "4K Ultra HD TV",
+      "description": "55-inch 4K UHD smart TV with HDR support.",
+      "price": 799.99,
+      "category": "Electronics",
+      "stock": 30,
+      "available": true,
+      "image_url": "https://example.com/images/4k-tv.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with 10 hours of battery life.",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 75,
+      "available": true,
+      "image_url": "https://example.com/images/bluetooth-speaker.jpg"
+    },
+    {
+      "id": 7,
+      "name": "LED Desk Lamp",
+      "description": "Adjustable desk lamp with LED light and USB charging port.",
+      "price": 49.99,
+      "category": "Home & Office",
+      "stock": 100,
+      "available": true,
+      "image_url": "https://example.com/images/led-desk-lamp.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Smart Watch",
+      "description": "Fitness tracking smartwatch with heart rate monitor and GPS.",
+      "price": 159.99,
+      "category": "Wearables",
+      "stock": 90,
+      "available": true,
+      "image_url": "https://example.com/images/smartwatch.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Gaming Chair",
+      "description": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
+      "price": 229.99,
+      "category": "Furniture",
+      "stock": 60,
+      "available": true,
+      "image_url": "https://example.com/images/gaming-chair.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Instant Pot",
+      "description": "6-quart pressure cooker with multiple cooking functions.",
+      "price": 89.99,
+      "category": "Kitchen",
+      "stock": 140,
+      "available": true,
+      "image_url": "https://example.com/images/instant-pot.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Electric Toothbrush",
+      "description": "Rechargeable toothbrush with multiple modes for a deep clean.",
+      "price": 79.99,
+      "category": "Health & Beauty",
+      "stock": 200,
+      "available": true,
+      "image_url": "https://example.com/images/electric-toothbrush.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Coffee Maker",
+      "description": "12-cup coffee maker with programmable timer and auto shut-off.",
+      "price": 59.99,
+      "category": "Kitchen",
+      "stock": 110,
+      "available": true,
+      "image_url": "https://example.com/images/coffee-maker.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Portable Power Bank",
+      "description": "10,000mAh power bank for charging phones on the go.",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 250,
+      "available": true,
+      "image_url": "https://example.com/images/power-bank.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Electric Kettle",
+      "description": "1.7-liter electric kettle with boil-dry protection.",
+      "price": 34.99,
+      "category": "Kitchen",
+      "stock": 180,
+      "available": true,
+      "image_url": "https://example.com/images/electric-kettle.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Yoga Mat",
+      "description": "Non-slip yoga mat with extra cushioning for comfort.",
+      "price": 25.99,
+      "category": "Sports & Outdoors",
+      "stock": 300,
+      "available": true,
+      "image_url": "https://example.com/images/yoga-mat.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Smartphone Stand",
+      "description": "Adjustable stand for phones and tablets for hands-free use.",
+      "price": 14.99,
+      "category": "Accessories",
+      "stock": 500,
+      "available": true,
+      "image_url": "https://example.com/images/smartphone-stand.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Electric Grill",
+      "description": "Non-stick electric grill with adjustable temperature control.",
+      "price": 99.99,
+      "category": "Kitchen",
+      "stock": 40,
+      "available": true,
+      "image_url": "https://example.com/images/electric-grill.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Bluetooth Earbuds",
+      "description": "Wireless earbuds with noise isolation and high-quality sound.",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 300,
+      "available": true,
+      "image_url": "https://example.com/images/bluetooth-earbuds.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Fitness Tracker",
+      "description": "Track your steps, calories burned, and sleep patterns with this fitness tracker.",
+      "price": 39.99,
+      "category": "Wearables",
+      "stock": 150,
+      "available": true,
+      "image_url": "https://example.com/images/fitness-tracker.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Wine Glass Set",
+      "description": "Set of 6 premium crystal wine glasses.",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "stock": 100,
+      "available": true,
+      "image_url": "https://example.com/images/wine-glasses.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Portable Blender",
+      "description": "Compact, rechargeable blender for smoothies and shakes.",
+      "price": 39.99,
+      "category": "Kitchen",
+      "stock": 110,
+      "available": true,
+      "image_url": "https://example.com/images/portable-blender.jpg"
+    }]

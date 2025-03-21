@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <i class="fa-duotone fa-light fa-kerning"></i>
+</head>
+<body >
+    <nav class="navbar">
+
+        <h1 >Astril</h1> 
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+            <!-- <p class="navbar-link"><a href="cart.html">Cart</a></p> -->
+
+            <div class="cart-container">
+                <div class="navbar-link">
+                <div class="cart-icon-count">
+                    <a href="cart.html">🛒</a>
+                    
+                    <span class="cart-count" id="cart-count">0</span>
+
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+
+         <i class="fa-solid fa-sliders"></i>
+
+        </div>
+
+    </nav>
+
+    <!-- Side Navbar -->
+<div class="side-navbar">
+    <p style="text-align: right" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+        <!-- Additional Links or Content for Side Navbar -->
+        <div class="side-navbar-extra">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Shoes</a></li>
+            </ul>
+
+            <!-- Social Media Links -->
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div class="header">
+
+        <div>
+            <h1>Level up your style</h1>
+            <p>with our stunning Collections</p>
+            <button  class="header-button" ><a style="color: white;"  href="collection.html"> Shop now </a></button>
+        </div>
+
+        <div>
+            <img style="border-radius: 10px;height: 300px;width: 300PX;" src="https://plus.unsplash.com/premium_photo-1714226832470-677e75740f72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fashion">
+        </div>
+
+    </div>
+
+
+    <div class="service">
+
+        <div class="service-container-1">
+
+            <div>
+                <h2>We provide best </h2>
+                <h2>customer experience</h2>
+             </div>
+             
+             <div>
+                <p>|| we ensure you the best shopping experience for you ||</p>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="service-container-2">
+            
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction Gaurante</h4>
+                <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iusto quo excepturi quam laborum obcaecati!</p>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>New Arrivals Everyday</h4>
+                <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iusto quo excepturi quam laborum obcaecati!</p>
+            </div>
+      
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Fast and Free shipping</h4>
+                <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid iusto quo excepturi quam laborum obcaecati!</p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <h1 style="text-align: center;"> -- New Arrivals --</h1>
+
+        <br>
+
+        <div class="new-arrival">
+
+            <div class="new-arrival-container">
+                <img src="https://www.thefashionisto.com/wp-content/uploads/2023/05/Mens-Trenchcoat.jpg" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.8RbTx_4tsHAgJ33DroHxmAHaHY&pid=Api&P=0&h=180" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.D5LbLxSRYuWHu79IcWYdkgHaJ_&pid=Api&P=0&h=180" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://images.yourstory.com/cs/7/1da9ec3014cc11e9a1b2b928167b6c62/mensfashionbanner1572434751640png?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="http://bucklemybelt.com/cdn/shop/articles/Mens-Spring-Fashion-intro_1024x1024.jpg?v=1681115283" alt="New arrival">
+                <button><a href="collection.html">Shop now</a> <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://media.istockphoto.com/id/1248489083/photo/mysterious-young-man-in-long-coat-posing.jpg?s=612x612&w=0&k=20&c=Zunkt5IqI2pjOFU8US6yLr2hY4fip78sjnXgyqwvNQU=" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+        <br>
+
+        <h2 style="text-align: center;">-- Most Wanted --</h2>
+
+        <br>
+
+        <div style="padding: 10px;"  class="new-arrival">
+
+            
+
+            <div  class="new-arrival-container">
+                <img src="https://media.istockphoto.com/id/1290259942/photo/portrait-of-a-man-in-retro-style-vintage.webp?a=1&b=1&s=612x612&w=0&k=20&c=ircCvET2o-Vc8EwCZkbChlsDXDgTEzXBXKoJxhYILcQ=" alt="New arrival">
+                <button><a href="collection.html">Shop now</a> <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://media.istockphoto.com/id/1338720994/photo/middle-aged-mature-woman-with-blond-hair-wearing-sunglasses-walking-on-city-streets-while.jpg?s=612x612&w=is&k=20&c=9yiDJsDVs6-_T0qBLPVsf4JDzBX_Pi4Phvv44G0tE-8=" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://media.istockphoto.com/id/2191154477/photo/woman-walking-with-a-handbag-in-a-city-street.jpg?s=612x612&w=is&k=20&c=50jxEOBiVBtJnfChBpcexzNqn-WZ9HENsUDh3hiMugE=" alt="New arrival">
+                <button><a href="collection.html">Shop now</a> <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R5bGV8ZW58MHx8MHx8fDA%3D" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://images.unsplash.com/photo-1502947844986-3884f2f5815d?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="new-arrival-container">
+                <img src="https://images.unsplash.com/photo-1608748010899-18f300247112?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN0eWxlfGVufDB8fDB8fHww" alt="New arrival">
+                <button><a href="collection.html">Shop now</a><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div  style="padding:10px;"  class="news">
+            <h2>Join with us for latest news in fashion updates</h2>
+            <p>|| Sign up for free usind ypur e-mail id ||</p>
+
+            <br>
+
+            <div>
+                <input type="text" class="search">
+            </div>
+
+            <div>
+                <button  class="" onclick="">  Sign-in  -></button>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <div class="footer-container">
+          
+              <!-- Footer Box 1 (About Us & Contact) -->
+              <div class="footer-box-1">
+                <h2 class="headingtext">Astril</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore amet eligendi voluptates corrupti tempora ea laudantium rem quas quae non nihil sunt perferendis quia blanditiis et nesciunt repellendus, doloremque ipsa consequatur praesentium dolorum, nobis nam nemo ducimus.</p>
+          
+               
+          
+                <div class="footer-section-social">
+                  
+          
+                  
+                </div>
+              </div>
+          
+              <!-- Separator -->
+              <div class="separator"></div>
+          
+              <!-- Footer Box 2 (Additional Section) -->
+              <div class="footer-box-2">
+                
+
+                <div class="footer-section-contact">
+                    <h3>Contact Us</h3>
+                    <p>Address: 123 Astril Colony St, City, Country</p>
+                    <p>Email: astril@gmail.com</p>
+                    <p>Phone: 9894193252</p>
+                  </div>
+                  <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>,
+                    <a href="https://instagram.com" target="_blank">Instagram</a>,
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                  </div>
+
+                  <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  
+              </div>
+          
+              <!-- Separator -->
+              <div class="separator"></div>
+          
+              <!-- Footer Box 3 (Newsletter or Other Section) -->
+              <div style="justify-content: center;" class="footer-box-3">
+                <h3>Subscribe</h3>
+                <p>Stay updated with our latest news. Enter your email:</p>
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <button class="subscribe-btn">Subscribe</button>
+              </div>
+            </div>
+            <p class="footer-bottom-text">@2025 Astril.com</p>
+          </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

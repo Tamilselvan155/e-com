@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <input type="text" onkeyup="check(event)" placeholder="Search...">
+
+    <div>
+        <h1>one</h1>
+        <h1>two</h1>
+        <h1>three</h1>
+        <h1>four</h1>
+        <h1>five</h1>
+    </div>
+
+    <script>
+        var elements = document.querySelectorAll("h1");
+
+        function check(event) {
+            var enteredText = event.target.value.toUpperCase();
+
+            elements.forEach(function(element) {
+                if (enteredText === "" || element.textContent.toUpperCase().indexOf(enteredText) >= 0) {
+                    element.style.display = "block";  // Show element if it matches or input is empty
+                } else {
+                    element.style.display = "none";  // Hide element if it doesn't match
+                }
+            });
+        }
+    </script>
+</body>
+</html>

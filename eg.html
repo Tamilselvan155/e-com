@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Icon with Count</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<style>
+    /* Styling for the cart icon */
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+</style>
+
+<body>
+    <nav class="navbar">
+        <h1>Astril</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="navbar-link"><a href="cart.html">Cart</a></p>
+        </div>
+        <!-- Cart Icon with Item Count -->
+        <div class="cart-icon">
+            <a href="cart.html">
+                <i class="fa fa-shopping-cart"></i>
+                <span id="cart-count" class="cart-count">0</span> <!-- Item count will be updated dynamically -->
+            </a>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-sliders"></i>
+        </div>
+    </nav>
+    
+
+    <script>
+        // Example: Adding item to the cart (existing function, but needs to call updateCartIconCount)
+function addToCart(item) {
+    // Add item to cart logic
+    cart.push(item);
+
+    // Save cart to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Update the cart icon count
+    updateCartIconCount();
+}
+
+// Example: Removing item from the cart (existing function, but needs to call updateCartIconCount)
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Update the cart icon count
+    updateCartIconCount();
+}
+
+// Example: Changing the quantity of an item (existing function, but needs to call updateCartIconCount)
+function changeQuantity(index, delta) {
+    const item = cart[index];
+    item.quantity += delta;
+
+    // Prevent quantity from going below 1
+    if (item.quantity <= 0) {
+        item.quantity = 1;
+    }
+
+    // Save the updated cart to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Update the cart icon count
+    updateCartIconCount();
+}
+
+    </script>
+        
+</body>
+</html>
